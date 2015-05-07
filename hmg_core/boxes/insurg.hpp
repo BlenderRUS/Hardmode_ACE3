@@ -363,8 +363,8 @@
 						name = "ItemGPS";
 						count = 2;
 					};
-					class _xx_AGM_Vector		{
-						name = "AGM_Vector";
+					class _xx_ACE_Vector		{
+						name = "ACE_Vector";
 						count = 2;
 					};
 					class _xx_AGM_earbuds		{
@@ -414,8 +414,8 @@
 						name = "Trixie_LSMARK4_Delta_Camo";
 						count = 1;
 					};	
-					class _xx_AGM_Vector		{
-						name = "AGM_Vector";
+					class _xx_ACE_Vector		{
+						name = "ACE_Vector";
 						count = 1;
 					};
 				};

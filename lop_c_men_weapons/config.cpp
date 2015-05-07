@@ -544,8 +544,8 @@ class CfgVehicles {
 	class LOP_IA_Special_SL : I_Soldier_SL_F {
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
-		weapons[] = {"rhs_weap_m16a4_carryhandle_pmag", "Throw", "Put", "AGM_Vector"};
-		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle_pmag", "Throw", "Put", "AGM_Vector"};
+		weapons[] = {"rhs_weap_m16a4_carryhandle_pmag", "Throw", "Put", "ACE_Vector"};
+		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle_pmag", "Throw", "Put", "ACE_Vector"};
 		magazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "30Rnd_556x45_Stanag_Tracer_Red", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
 		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "30Rnd_556x45_Stanag_Tracer_Red", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
 		linkedItems[] = {"LOP_V_CarrierRig_KHK", "H_HelmetB_light_sand", "G_Balaclava_blk","ItemCompass", "ItemWatch", "rhsusf_ANPVS_14","ItemRadio","ItemSMGR","ItemMap"};

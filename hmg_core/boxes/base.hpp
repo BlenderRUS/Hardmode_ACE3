@@ -25,13 +25,13 @@
 	class HMG_Med_small : HMG_Med_base {
 				displayName = "Малый ящик с медициной";
 				class TransportItems {
-						class _xx_AGM_Bandage {
-							name = "AGM_Bandage";
+						class _xx_ACE_fieldDressing {
+							name = "ACE_fieldDressing";
 							count = 30;
 						};
 
-						class _xx_AGM_Morphine {
-							name = "AGM_Morphine";
+						class _xx_ACE_morphine {
+							name = "ACE_morphine";
 							count = 5;
 						};
 

@@ -406,7 +406,7 @@ class CfgPatches
 						hiddenSelections[] = {"Camo1"};\
 						hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry\data\rhsusf_combat01_ucp_co.paa","rhsusf\addons\rhsusf_infantry\data\rhsusf_combat01_ucp_pockets_co.paa","rhsusf\addons\rhsusf_infantry\data\patches\1CAV_ucp_co.paa"};*/
 						
-#define US_SMGR			Items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage", "AGM_Bandage","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+#define US_SMGR			Items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
 #define US_SMGR_3IFAK		Items[] = {"FirstAidKit","FirstAidKit","FirstAidKit","ItemGPS","G_Combat"};
 #define US_AGPS			Items[] = {"FirstAidKit","ItemGPS","G_Combat"};
 
@@ -422,7 +422,7 @@ class LOP_AFR_Soldier_GL; //вызываем дух покойного нигр�
 class us_army_des_ucp_base_m4 : rhsusf_army_ocp_rifleman {
 			UCP_Uni_Macro	
 			icon = "iconMan";
-			items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage" };
+			items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing" };
 			displayName = "US Army  Rifleman (ucp)";
         	linkedItems[] = {"rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_Rifleman","ItemCompass","ItemWatch","ItemRadio"};
 			respawnLinkedItems[] = {"rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_Rifleman","ItemCompass","ItemWatch","ItemRadio"};
@@ -452,7 +452,7 @@ class us_army_des_ucp_base_m4 : rhsusf_army_ocp_rifleman {
 class us_army_des_ucp_base_m249 : us_army_des_ucp_base_m4{
 			icon = "iconManMG";
 			displayName = "US Army  Autorifleman (ucp)";
-			items[] = {"FirstAidPack","AGM_SpareBarrel","AGM_SpareBarrel","rhsusf_acc_compm4","G_Combat"};
+			items[] = {"FirstAidPack","ACE_SpareBarrel","ACE_SpareBarrel","rhsusf_acc_compm4","G_Combat"};
 	        linkedItems[] = {"rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_SAW","ItemCompass","ItemWatch","ItemRadio"};
 			respawnLinkedItems[] = {"rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_SAW","ItemCompass","ItemWatch","ItemRadio"};
 			weapons[] = {"rhs_weap_m249_pip","Throw","Put"};
@@ -479,7 +479,7 @@ class us_army_des_ucp_base_m249 : us_army_des_ucp_base_m4{
 class us_army_des_ucp_base_m240 : us_army_des_ucp_base_m4{
 			icon = "iconManMG";
 			displayName = "US Army  Machine-gunner (ucp)";
-			items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage", "AGM_Bandage", "RH_m145"};
+			items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing", "RH_m145"};
 	        linkedItems[] = {"rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_SAW","ItemCompass","ItemWatch","ItemRadio"};
 			respawnLinkedItems[] = {"rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_SAW","ItemCompass","ItemWatch","ItemRadio"};
 			weapons[] = {"rhs_weap_m240B","CUP_hgun_M9","Throw","Put"};
@@ -509,7 +509,7 @@ class us_army_des_ucp_base_m240 : us_army_des_ucp_base_m4{
 };
 class us_army_des_ucp_base_m4_3ifak : us_army_des_ucp_base_m4 {
 			displayName = "US Army  Rifleman 3IFAK (ucp)";
-			Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_Bandage", "AGM_Bandage", "AGM_Bandage","G_Combat"};
+			Items[] = {"ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing","G_Combat"};
         	linkedItems[] = {"rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_Rifleman","ItemCompass","ItemWatch","ItemRadio"};
 			respawnLinkedItems[] = {"rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_Rifleman","ItemCompass","ItemWatch","ItemRadio"};
 			weapons[] = {"rhs_weap_m4_carryhandle","Throw","Put"};
@@ -941,7 +941,7 @@ class us_army_des_ucp_aarsp : us_army_des_ucp_base_m4_cco {
 class us_army_wood_ocp_base_m4 : rhsusf_army_ocp_rifleman {
 			OCP_Uni_Macro	
 			icon = "iconMan";
-			items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage", "AGM_Bandage"};
+			items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing"};
 			displayName = "US Army  Rifleman (wood)";
         	linkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_Rifleman","ItemCompass","ItemWatch","ItemRadio"};
 			respawnLinkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_Rifleman","ItemCompass","ItemWatch","ItemRadio"};
@@ -972,7 +972,7 @@ class us_army_wood_ocp_base_m4 : rhsusf_army_ocp_rifleman {
 class us_army_wood_ocp_base_m249 : us_army_wood_ocp_base_m4{
 			icon = "iconManMG";
 			displayName = "US Army  Autorifleman (wood)";
-			items[] = {"FirstAidPack","AGM_SpareBarrel","AGM_SpareBarrel","rhsusf_acc_compm4","G_Combat"};
+			items[] = {"FirstAidPack","ACE_SpareBarrel","ACE_SpareBarrel","rhsusf_acc_compm4","G_Combat"};
 	        linkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_SAW","ItemCompass","ItemWatch","ItemRadio"};
 			respawnLinkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_SAW","ItemCompass","ItemWatch","ItemRadio"};
 			weapons[] = {"rhs_weap_m249_pip","Throw","Put"};
@@ -999,7 +999,7 @@ class us_army_wood_ocp_base_m249 : us_army_wood_ocp_base_m4{
 class us_army_wood_ocp_base_m240 : us_army_wood_ocp_base_m4{
 			icon = "iconManMG";
 			displayName = "US Army  Machine-gunner (wood)";
-			items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage", "AGM_Bandage", "RH_m145"};
+			items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing", "RH_m145"};
 	        linkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_SAW","ItemCompass","ItemWatch","ItemRadio"};
 			respawnLinkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_SAW","ItemCompass","ItemWatch","ItemRadio"};
 			weapons[] = {"rhs_weap_m240B","CUP_hgun_M9","Throw","Put"};
@@ -1029,7 +1029,7 @@ class us_army_wood_ocp_base_m240 : us_army_wood_ocp_base_m4{
 };
 class us_army_wood_ocp_base_m4_3ifak : us_army_wood_ocp_base_m4 {
 			displayName = "US Army  Rifleman 3IFAK (wood)";
-			Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_Bandage", "AGM_Bandage", "AGM_Bandage","G_Combat"};
+			Items[] = {"ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing","G_Combat"};
         	linkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_Rifleman","ItemCompass","ItemWatch","ItemRadio"};
 			respawnLinkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_Rifleman","ItemCompass","ItemWatch","ItemRadio"};
 			weapons[] = {"rhs_weap_m4_carryhandle","Throw","Put"};
@@ -1485,12 +1485,12 @@ class us_army_des_ucp_aarspas : us_army_des_ucp_base_m4{
 };
 class us_army_wood_ocp_mort_g : us_army_wood_ocp_base_m4{
 		displayName = "M252 Gunner (wood)";
-		items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage","cw_item_table82mm_252"};
+		items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing","cw_item_table82mm_252"};
 		backpack = "RDS_M252_Gun_Bag_FIA";
 };
 class us_army_des_ucp_mort_g : us_army_des_ucp_base_m4{
 		displayName = "M252 Gunner (ucp)";
-		items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage","cw_item_table82mm_252"};
+		items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing","cw_item_table82mm_252"};
 		backpack = "RDS_M252_Gun_Bag_FIA";
 };
 class us_army_wood_ocp_mort_gas : us_army_wood_ocp_base_m4{
@@ -1607,7 +1607,7 @@ class us_army_wood_ocp_apc1130_dr : us_army_wood_ocp_ifv_dr {
 class us_army_des_ucp_snip_sniper1 : us_army_des_ucp_base_m4 {
 			displayName = "Sniper SP M107 (ucp)";
 			icon = "IconMan";
-			Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","RH_pas13cl","ATragMX"};
+			Items[] = {"ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing","RH_pas13cl","ATragMX"};
 			weapons[] = {"Trixie_M107","Throw","Put","Binocular"};
 			respawnWeapons[] = {"Trixie_M107","Throw","Put","Binocular"};
 			magazines[] = 		{

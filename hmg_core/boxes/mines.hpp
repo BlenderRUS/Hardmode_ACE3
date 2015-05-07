@@ -36,8 +36,8 @@
 						};
 				};
 				class TransportItems {
-						class _xx_AGM_M26_Clacker {
-							name = "AGM_M26_Clacker";
+						class _xx_ACE_M26_Clacker {
+							name = "ACE_M26_Clacker";
 							count = 2;
 						};
 						class _xx_AGM_DefusalKit {
@@ -56,8 +56,8 @@
 						};
 				};
 				class TransportItems {
-						class _xx_AGM_M26_Clacker {
-							name = "AGM_M26_Clacker";
+						class _xx_ACE_M26_Clacker {
+							name = "ACE_M26_Clacker";
 							count = 2;
 						};
 						class _xx_AGM_DefusalKit {
@@ -76,8 +76,8 @@
 						};
 				};
 				class TransportItems {
-						class _xx_AGM_M26_Clacker {
-							name = "AGM_M26_Clacker";
+						class _xx_ACE_M26_Clacker {
+							name = "ACE_M26_Clacker";
 							count = 2;
 						};
 						class _xx_AGM_DefusalKit {
@@ -96,8 +96,8 @@
 						};
 				};
 				class TransportItems {
-						class _xx_AGM_M26_Clacker {
-							name = "AGM_M26_Clacker";
+						class _xx_ACE_M26_Clacker {
+							name = "ACE_M26_Clacker";
 							count = 2;
 						};
 						class _xx_AGM_DefusalKit {
@@ -116,8 +116,8 @@
 						};
 				};
 				class TransportItems {
-						class _xx_AGM_M26_Clacker {
-							name = "AGM_M26_Clacker";
+						class _xx_ACE_M26_Clacker {
+							name = "ACE_M26_Clacker";
 							count = 6;
 						};
 						class _xx_AGM_DefusalKit {
@@ -145,8 +145,8 @@
 
 				};
 				class TransportItems {
-						class _xx_AGM_M26_Clacker {
-							name = "AGM_M26_Clacker";
+						class _xx_ACE_M26_Clacker {
+							name = "ACE_M26_Clacker";
 							count = 6;
 						};
 						class _xx_AGM_DefusalKit {
@@ -165,8 +165,8 @@
 						};
 				};
 				class TransportItems {
-						class _xx_AGM_M26_Clacker {
-							name = "AGM_M26_Clacker";
+						class _xx_ACE_M26_Clacker {
+							name = "ACE_M26_Clacker";
 							count = 2;
 						};
 						class _xx_AGM_DefusalKit {
@@ -185,8 +185,8 @@
 						};
 				};
 				class TransportItems {
-						class _xx_AGM_M26_Clacker {
-							name = "AGM_M26_Clacker";
+						class _xx_ACE_M26_Clacker {
+							name = "ACE_M26_Clacker";
 							count = 2;
 						};
 						class _xx_AGM_DefusalKit {
@@ -210,8 +210,8 @@
 
 				};
 				class TransportItems {
-						class _xx_AGM_M26_Clacker {
-							name = "AGM_M26_Clacker";
+						class _xx_ACE_M26_Clacker {
+							name = "ACE_M26_Clacker";
 							count = 2;
 						};
 						class _xx_AGM_DefusalKit {
@@ -240,8 +240,8 @@
 
 				};
 				class TransportItems {
-						class _xx_AGM_M26_Clacker {
-							name = "AGM_M26_Clacker";
+						class _xx_ACE_M26_Clacker {
+							name = "ACE_M26_Clacker";
 							count = 2;
 						};
 						class _xx_AGM_DefusalKit {
@@ -265,8 +265,8 @@
 						};
 				};
 				class TransportItems {
-						class _xx_AGM_M26_Clacker {
-							name = "AGM_M26_Clacker";
+						class _xx_ACE_M26_Clacker {
+							name = "ACE_M26_Clacker";
 							count = 4;
 						};
 						class _xx_AGM_DefusalKit {

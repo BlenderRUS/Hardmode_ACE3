@@ -56,9 +56,9 @@ class rhsusf_assault_eagleaiii_ucp_mgas: rhsusf_assault_eagleaiii_ucp
 	};
 	class TransportItems
 	{
-		class _xx_AGM_SpareBarrel
+		class _xx_ACE_SpareBarrel
 		{
-			name = "AGM_SpareBarrel";
+			name = "ACE_SpareBarrel";
 			count = 2;
 		};
 	};
@@ -77,9 +77,9 @@ class rhsusf_assault_eagleaiii_ocp_mgas: rhsusf_assault_eagleaiii_ocp
 	};
 	class TransportItems
 	{
-		class _xx_AGM_SpareBarrel
+		class _xx_ACE_SpareBarrel
 		{
-			name = "AGM_SpareBarrel";
+			name = "ACE_SpareBarrel";
 			count = 2;
 		};
 	};
@@ -546,9 +546,9 @@ class MEF_Wood_Kitbag_SMAW: B_Kitbag_Base
 			name = "DemoCharge_Remote_Mag";
 			count = 3;
 		};
-		class _xx_AGM_Clacker
+		class _xx_ACE_Clacker
 		{
-			name = "AGM_Clacker";
+			name = "ACE_Clacker";
 			count = 1;
 		};
 	};
@@ -740,9 +740,9 @@ class MEF_Des_Tactical_SMAW: B_Kitbag_Base
 			name = "DemoCharge_Remote_Mag";
 			count = 3;
 		};
-		class _xx_AGM_Clacker
+		class _xx_ACE_Clacker
 		{
-			name = "AGM_Clacker";
+			name = "ACE_Clacker";
 			count = 1;
 		};
 	};
@@ -867,9 +867,9 @@ class CUP_B_CivPack_Wdl_SMAW: B_Carryall_oli
 			name = "DemoCharge_Remote_Mag";
 			count = 3;
 		};
-		class _xx_AGM_Clacker
+		class _xx_ACE_Clacker
 		{
-			name = "AGM_Clacker";
+			name = "ACE_Clacker";
 			count = 1;
 		};
 	};

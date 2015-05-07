@@ -681,8 +681,8 @@ class CfgVehicles {
 		camouflage = 1.6;
 		sensitivity = 3;
 		
-		Items[] = {"FirstAidKit","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
-		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
+		Items[] = {"FirstAidKit","cw_item_notepad","ACE_MapTools","ACE_CableTie"};
+		RespawnItems[] = {"FirstAidKit","cw_item_notepad","ACE_MapTools","ACE_CableTie"};
 		weapons[] = {"hlc_rifle_aks74","Throw","Put","CUP_hgun_Makarov","Binocular"};
 		respawnWeapons[] = {"hlc_rifle_aks74","Throw","Put","CUP_hgun_Makarov","Binocular"};
 		magazines[] =
@@ -1117,8 +1117,8 @@ class CfgVehicles {
 		threat[] = {1,0.1,0.3};
 		linkedItems[] = {"V_CDF_A3_6b23_engineer","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"V_CDF_A3_6b23_engineer","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch"};
-		Items[] = {"FirstAidKit","AGM_SpareBarrel"};
-		RespawnItems[] = {"FirstAidKit","AGM_SpareBarrel"};
+		Items[] = {"FirstAidKit","ACE_SpareBarrel"};
+		RespawnItems[] = {"FirstAidKit","ACE_SpareBarrel"};
 		weapons[] = {"rhs_weap_pkm","Throw","Put"};
 		respawnWeapons[] = {"rhs_weap_pkm","Throw","Put"};
 		magazines[] =
@@ -1143,8 +1143,8 @@ class CfgVehicles {
 	{
 		_generalMacro = "hmg_cdf_machinegunner_assistant";
 		displayName= "Номер расчета ПКМ (бутан)";
-		Items[] = {"FirstAidKit","AGM_SpareBarrel","AGM_SpareBarrel"};
-		respawnItems[] = {"FirstAidKit","AGM_SpareBarrel","AGM_SpareBarrel"};
+		Items[] = {"FirstAidKit","ACE_SpareBarrel","ACE_SpareBarrel"};
+		respawnItems[] = {"FirstAidKit","ACE_SpareBarrel","ACE_SpareBarrel"};
         linkedItems[] = {"V_CDF_A3_6b23_engineer","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"V_CDF_A3_6b23_engineer","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch"};
 		backpack = "B_CDF_A3_Backpack";
@@ -1272,8 +1272,8 @@ class CfgVehicles {
 		camouflage = 1.6;
 		sensitivity = 3;
 		
-		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
-		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		Items[] = {"FirstAidKit","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
+		RespawnItems[] = {"FirstAidKit","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
 		weapons[] = {"hlc_rifle_aks74","Throw","Put","CUP_hgun_Makarov","Binocular"};
 		respawnWeapons[] = {"hlc_rifle_aks74","Throw","Put","CUP_hgun_Makarov","Binocular"};
 		magazines[] =
@@ -1346,18 +1346,18 @@ class CfgVehicles {
 		displayName= "Командир Мех взвода (бутан)";
 		weapons[] = {"hlc_rifle_aks74","Throw","Put","Binocular","CUP_hgun_Makarov"};
 		respawnWeapons[] = {"hlc_rifle_aks74","Throw","Put","Binocular","CUP_hgun_Makarov"};
-		linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemCompass","ItemWatch","ItemRadio","AGM_NVG_Gen2","ItemMap"};
-		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemCompass","ItemWatch","ItemRadio","AGM_NVG_Gen2","ItemMap"};
+		linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemCompass","ItemWatch","ItemRadio","ACE_NVG_Gen2","ItemMap"};
+		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemCompass","ItemWatch","ItemRadio","ACE_NVG_Gen2","ItemMap"};
 	};	
 	
 	class hmg_cdf_ko_gv : hmg_cdf_officer_armored
 	{
 		_generalMacro = "hmg_cdf_ko_gv";
 		displayName= "Командир гранатометного взвода (бутан)";
-		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools","cw_item_tableags"};
-		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools","cw_item_tableags"};
-		linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_crewofficer","ItemCompass","ItemWatch","AGM_NVG_Gen2","ItemMap"};
-		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_crewofficer","ItemCompass","ItemWatch","AGM_NVG_Gen2","ItemMap"};
+		Items[] = {"FirstAidKit","cw_item_notepad","ACE_CableTie","ACE_MapTools","cw_item_tableags"};
+		RespawnItems[] = {"FirstAidKit","cw_item_notepad","ACE_CableTie","ACE_MapTools","cw_item_tableags"};
+		linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_crewofficer","ItemCompass","ItemWatch","ACE_NVG_Gen2","ItemMap"};
+		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_crewofficer","ItemCompass","ItemWatch","ACE_NVG_Gen2","ItemMap"};
 		backpack = "tf_mr3000_rhs";
 	};	
 		
@@ -1391,8 +1391,8 @@ class CfgVehicles {
 			"rhs_mag_rgd5"
 		};
 		backpack = "B_CDF_A3_Backpack";
-		Items[] = {"FirstAidKit" ,"cw_item_notepad","AGM_CableTie","AGM_MapTools"};
-		RespawnItems[] = {"FirstAidKit" ,"cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		Items[] = {"FirstAidKit" ,"cw_item_notepad","ACE_CableTie","ACE_MapTools"};
+		RespawnItems[] = {"FirstAidKit" ,"cw_item_notepad","ACE_CableTie","ACE_MapTools"};
         linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_crew","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_crew","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
@@ -1419,8 +1419,8 @@ class CfgVehicles {
 	{
 		_generalMacro = "hmg_cdf_sergeant_go";
 		displayName= "Командир гранатометного отделения (бутан)";
-		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools","cw_item_tableags"};
-		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools","cw_item_tableags"};
+		Items[] = {"FirstAidKit","cw_item_notepad","ACE_CableTie","ACE_MapTools","cw_item_tableags"};
+		RespawnItems[] = {"FirstAidKit","cw_item_notepad","ACE_CableTie","ACE_MapTools","cw_item_tableags"};
 	};
 	
 	class hmg_cdf_kmsv : hmg_cdf_officer_armored
@@ -1496,8 +1496,8 @@ class CfgVehicles {
 	{
 		_generalMacro = "hmg_cdf_driver_st";
 		displayName= "Ст. механик водитель (бутан)";
-		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
-		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		Items[] = {"FirstAidKit","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
+		RespawnItems[] = {"FirstAidKit","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
 		weapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
 		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
 
@@ -1637,8 +1637,8 @@ class CfgVehicles {
 	{
 		_generalMacro = "hmg_cdf_tank_kommander";
 		displayName= "Командир танка (бутан)";
-		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
-		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		Items[] = {"FirstAidKit","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
+		RespawnItems[] = {"FirstAidKit","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
 		weapons[] = {"hlc_rifle_aks74u","CUP_hgun_Makarov","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
 		respawnWeapons[] = {"hlc_rifle_aks74u","CUP_hgun_Makarov","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
 
@@ -1752,8 +1752,8 @@ class CfgVehicles {
 		_generalMacro = "hmg_cdf_komandir_minometa";
 		displayName= "Командир миномета (бутан)";
 		
-		Items[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
-		RespawnItems[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
+		Items[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","ACE_MapTools","ACE_CableTie"};
+		RespawnItems[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","ACE_MapTools","ACE_CableTie"};
 		weapons[] = {"hlc_rifle_aks74u","Binocular","Throw","Put"};
 		respawnWeapons[] = {"hlc_rifle_aks74u","Binocular","Throw","Put"};
 		backpack="RDS_Podnos_Gun_Bag_CSAT";
@@ -1778,8 +1778,8 @@ class CfgVehicles {
 	{
 		_generalMacro = "hmg_cdf_komvzvoda_ognevogo";
 		displayName= "Командир огневого взвода (бутан)";
-		Items[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
-		RespawnItems[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
+		Items[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","ACE_MapTools","ACE_CableTie"};
+		RespawnItems[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","ACE_MapTools","ACE_CableTie"};
 	};
 	//отсюда должности отделения связи
 	class hmg_cdf_radist : hmg_cdf_rifleman_radist
@@ -1809,8 +1809,8 @@ class CfgVehicles {
 	{
 		_generalMacro = "hmg_cdf_razved4ik";
 		displayName= "Разведчик (бутан)";
-		linkedItems[] = {"V_CDF_A3_6b23_engineer","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch","AGM_NVG_Gen2"};
-		respawnLinkedItems[] = {"V_CDF_A3_6b23_engineer","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch","AGM_NVG_Gen2"};
+		linkedItems[] = {"V_CDF_A3_6b23_engineer","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch","ACE_NVG_Gen2"};
+		respawnLinkedItems[] = {"V_CDF_A3_6b23_engineer","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch","ACE_NVG_Gen2"};
 		weapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
 		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
 	};	
@@ -1835,8 +1835,8 @@ class CfgVehicles {
 	{
 		_generalMacro = "hmg_cdf_starshii_vi4islitel";
 		displayName= "Старший вычислитель (бутан)";
-		Items[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","AGM_MapTools"};
-		RespawnItems[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","AGM_MapTools"};
+		Items[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","ACE_MapTools"};
+		RespawnItems[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","ACE_MapTools"};
 	};
 	
 	class hmg_cdf_komvzvoda_upravlenia : hmg_cdf_officer_armored
@@ -1890,8 +1890,8 @@ class CfgVehicles {
 		attendant =1;
 		icon="iconManMedic";
 		displayName= "Старший водитель-санитар (бутан)";
-		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
-		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		Items[] = {"FirstAidKit","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
+		RespawnItems[] = {"FirstAidKit","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
 		linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_medic","ItemCompass","ItemWatch","ItemMap"};
 		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_medic","ItemCompass","ItemWatch","ItemMap"};
 		weapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk

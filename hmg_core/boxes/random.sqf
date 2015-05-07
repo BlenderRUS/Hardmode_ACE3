@@ -66,7 +66,7 @@ switch (_hmgtypeofbox) do {
 		_hmgcount = (floor (random 5));
 		_hmgbox additemcargoglobal ["ItemGPS", _hmgcount];	
 		_hmgcount = (floor (random 2));
-		_hmgbox additemcargoglobal ["AGM_Vector", _hmgcount]; 
+		_hmgbox additemcargoglobal ["ACE_Vector", _hmgcount]; 
 		_hmgcount = (floor (random 5));
 		_hmgbox addweaponcargoglobal ["Binocular", _hmgcount]; 
 		};

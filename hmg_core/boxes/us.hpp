@@ -209,8 +209,8 @@
 			
 				};
 				class TransportItems {
-						class _xx_AGM_CableTie {
-							name = "AGM_CableTie";
+						class _xx_ACE_CableTie {
+							name = "ACE_CableTie";
 							count = 20;
 						};
 						class _xx_Trixie_ANPASM {
@@ -343,8 +343,8 @@
 			
 				};
 				class TransportItems {
-						class _xx_AGM_CableTie {
-							name = "AGM_CableTie";
+						class _xx_ACE_CableTie {
+							name = "ACE_CableTie";
 							count = 20;
 						};
 						class _xx_B_UavTerminal {
@@ -374,8 +374,8 @@
 		class hmg_us_box_sbct_comp_hq : hmg_us_box_small_base {
 				displayName = "Ящик имущество SBCT Rifle Company HQ (US)";
 				class TransportItems {
-						class _xx_AGM_CableTie {
-							name = "AGM_CableTie";
+						class _xx_ACE_CableTie {
+							name = "ACE_CableTie";
 							count = 20;
 						};
 
@@ -521,8 +521,8 @@
 			
 				};
 				class TransportItems {
-						class _xx_AGM_CableTie {
-							name = "AGM_CableTie";
+						class _xx_ACE_CableTie {
+							name = "ACE_CableTie";
 							count = 20;
 						};
 						class _xx_Trixie_ANPASM {
@@ -744,8 +744,8 @@
 
 				};
 				class TransportItems {
-						class _xx_AGM_CableTie {
-							name = "AGM_CableTie";
+						class _xx_ACE_CableTie {
+							name = "ACE_CableTie";
 							count = 20;
 						};
 
@@ -849,8 +849,8 @@
 
 				};
 				class TransportItems {
-						class _xx_AGM_M26_Clacker {
-							name = "AGM_M26_Clacker";
+						class _xx_ACE_M26_Clacker {
+							name = "ACE_M26_Clacker";
 							count = 3;
 						};
 				};
@@ -860,8 +860,8 @@
 		class hmg_us_box_usmc_comp_hq2005 : hmg_us_box_small_base {
 				displayName = "Ящик имущество USMC Company HQ 2005 (US)";
 				class TransportItems {
-						class _xx_AGM_CableTie {
-							name = "AGM_CableTie";
+						class _xx_ACE_CableTie {
+							name = "ACE_CableTie";
 							count = 20;
 						};
 
@@ -976,8 +976,8 @@
 
 				};
 				class TransportItems {
-						class _xx_AGM_M26_Clacker {
-							name = "AGM_M26_Clacker";
+						class _xx_ACE_M26_Clacker {
+							name = "ACE_M26_Clacker";
 							count = 3;
 						};
 				};
@@ -987,8 +987,8 @@
 		class hmg_us_box_usmc_comp_hq1995 : hmg_us_box_small_base {
 				displayName = "Ящик имущество USMC Company HQ 1995 (US)";
 				class TransportItems {
-						class _xx_AGM_CableTie {
-							name = "AGM_CableTie";
+						class _xx_ACE_CableTie {
+							name = "ACE_CableTie";
 							count = 20;
 						};
 
@@ -1099,8 +1099,8 @@
 
 				};
 				class TransportItems {
-						class _xx_AGM_M26_Clacker {
-							name = "AGM_M26_Clacker";
+						class _xx_ACE_M26_Clacker {
+							name = "ACE_M26_Clacker";
 							count = 3;
 						};
 				};
@@ -1110,8 +1110,8 @@
 		class hmg_us_box_usmc_comp_hq1985 : hmg_us_box_small_base {
 				displayName = "Ящик имущество USMC Company HQ 1985 (US)";
 				class TransportItems {
-						class _xx_AGM_CableTie {
-							name = "AGM_CableTie";
+						class _xx_ACE_CableTie {
+							name = "ACE_CableTie";
 							count = 20;
 						};
 
@@ -1223,8 +1223,8 @@
 */
 				};
 				class TransportItems {
-						class _xx_AGM_M26_Clacker {
-							name = "AGM_M26_Clacker";
+						class _xx_ACE_M26_Clacker {
+							name = "ACE_M26_Clacker";
 							count = 3;
 						};
 				};

@@ -7,5 +7,5 @@ if (isServer) then {
 	clearWeaponcargoGlobal _veh;
 	clearMagazineCargoGlobal _veh;
 	clearBackpackCargoGlobal _veh;
-	_veh addItemCargoGlobal ["cw_item_tableags",1]; _veh addItemCargoGlobal ["AGM_MapTools",1]; _veh addItemCargoGlobal ["cw_item_notepad",1];
+	_veh addItemCargoGlobal ["cw_item_tableags",1]; _veh addItemCargoGlobal ["ACE_MapTools",1]; _veh addItemCargoGlobal ["cw_item_notepad",1];
 };

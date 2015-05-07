@@ -21,7 +21,7 @@
 	class hmg_us_army_2015_ABCT_GNR : rhsusf_army_ocp_rifleman_1stcav
 	{
 		displayName= "Gunner/ASST Tank Commander(ocp) ";
-		items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage", "AGM_Bandage","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
         linkedItems[] = {"rhsusf_cvc_green_helmet","rhsusf_iotv_ocp","ItemCompass","ItemWatch", "ItemMap","ItemMicroDAGR"};
 		respawnLinkedItems[] = {"rhsusf_cvc_green_helmet","rhsusf_iotv_ocp","ItemCompass","ItemWatch", "ItemMap","ItemMicroDAGR"};
 		weapons[] = {"CUP_hgun_M9","Throw","Put"};
@@ -43,7 +43,7 @@
 	class hmg_us_army_2015_ABCT_LOADER : hmg_us_army_2015_ABCT_GNR
 	{
 		displayName= "Loader (ocp)";
-		items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage", "AGM_Bandage"};
+		items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing"};
 		linkedItems[] = {"rhsusf_cvc_green_helmet","rhsusf_iotv_ocp","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"rhsusf_cvc_green_helmet","rhsusf_iotv_ocp","ItemCompass","ItemWatch"};
 		weapons[] = {"rhs_weap_m4","CUP_hgun_M9","Throw","Put"};
@@ -78,7 +78,7 @@
 	class hmg_us_army_2015_ABCT_CREWMAN : hmg_us_army_2015_ABCT_GNR
 	{
 		displayName= "Crewman (ocp)";
-		items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage", "AGM_Bandage"};
+		items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing"};
 		linkedItems[] = {"rhsusf_cvc_green_helmet","rhsusf_iotv_ocp","ItemCompass","ItemWatch", "NVGoggles_INDEP"};
 		respawnLinkedItems[] = {"rhsusf_cvc_green_helmet","rhsusf_iotv_ocp","ItemCompass","ItemWatch", "NVGoggles_INDEP"};
 	};
@@ -86,7 +86,7 @@
 	class hmg_us_army_2015_ABCT_TANKCDR : hmg_us_army_2015_ABCT_LOADER
 	{
 		displayName= "Tank Commander(ocp)";
-		items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage", "AGM_Bandage","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
 		linkedItems[] = {"rhsusf_cvc_green_helmet","rhsusf_iotv_ocp","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemMap","ItemAndroid"};
 		respawnLinkedItems[] = {"rhsusf_cvc_green_helmet","rhsusf_iotv_ocp","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemMap","ItemAndroid"};
 		weapons[] = {"rhs_weap_m4","CUP_hgun_M9","Throw","Put","Binocular"};
@@ -106,7 +106,7 @@
 	class hmg_us_army_2015_ABCT_SUPPLY_SP  : rhsusf_army_ocp_rifleman_1stcav
 	{
 		displayName= "Supply SP (ocp) ";
-		items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage", "AGM_Bandage"};
+		items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing"};
         linkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_Grenadier","ItemCompass","ItemWatch","NVGoggles_INDEP","ItemMicroDAGR"};
 		respawnLinkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_Grenadier","ItemCompass","ItemWatch","NVGoggles_INDEP","ItemMicroDAGR"};
 		weapons[] = {"rhs_weap_m4_m320","Throw","Put"};
@@ -136,7 +136,7 @@
 	class hmg_us_army_2015_ABCT_SUPPLY_NCO  : hmg_us_army_2015_ABCT_SUPPLY_SP
 	{
 		displayName= "Supply NCO (ocp) ";
-		items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage", "AGM_Bandage","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
 		weapons[] = {"rhs_weap_m4_m320","Throw","Put","Binocular"};
 		respawnWeapons[] = {"rhs_weap_m4_m320","Throw","Put","Binocular"};
 		linkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_Grenadier","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemMap","ItemAndroid"};
@@ -171,7 +171,7 @@
 	class hmg_us_army_2015_ABCT_FWD_SIG_SPT_NCO  : hmg_us_army_2015_ABCT_SUPPLY_NCO
 	{
 		displayName= "Forward signal NCO (ocp) ";
-		items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage", "AGM_Bandage","cw_item_notepad","AGM_CableTie","AGM_MapTools","ItemcTabHCam","ItemcTabHCam","ItemcTabHCam"};
+		items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing","cw_item_notepad","ACE_CableTie","ACE_MapTools","ItemcTabHCam","ItemcTabHCam","ItemcTabHCam"};
 		linkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_Grenadier","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemcTab","ItemMap"};
 		respawnLinkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_Grenadier","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemcTab","ItemMap"};
 		Backpack = "rhsusf_assault_eagleaiii_ocp_gp";
@@ -180,7 +180,7 @@
 	class hmg_us_army_2015_ABCT_1SG  : hmg_us_army_2015_ABCT_FWD_SIG_SPT_NCO
 	{
 		displayName= "First sergeant (ocp) ";
-		items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage", "AGM_Bandage","cw_item_notepad","AGM_CableTie","AGM_MapTools","MineDetector","AGM_Clacker",};
+		items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing","cw_item_notepad","ACE_CableTie","ACE_MapTools","MineDetector","ACE_Clacker",};
 		linkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_Grenadier","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemcTab","ItemMap"};
 		respawnLinkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_Grenadier","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemcTab","ItemMap"};
 		magazines[] = 		{
@@ -215,7 +215,7 @@
 	class hmg_us_army_2015_ABCT_DRV : hmg_us_army_2015_ABCT_CREWMAN
 	{
 		displayName= "Driver m113 (ocp)";
-		items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage", "AGM_Bandage","MineDetector"};
+		items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing","MineDetector"};
 		linkedItems[] = {"rhsusf_cvc_green_helmet","rhsusf_iotv_ocp","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemMicroDAGR"};
 		respawnLinkedItems[] = {"rhsusf_cvc_green_helmet","rhsusf_iotv_ocp","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemMicroDAGR"};
 	};
@@ -223,7 +223,7 @@
 	class hmg_us_army_2015_ABCT_XO : hmg_us_army_2015_ABCT_TANKCDR
 	{
 		displayName= "Executive Officer(ocp)";
-		items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage", "AGM_Bandage","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
 		linkedItems[] = {"rhsusf_cvc_green_helmet","rhsusf_iotv_ocp","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemMap","ItemcTab"};
 		respawnLinkedItems[] = {"rhsusf_cvc_green_helmet","rhsusf_iotv_ocp","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemMap","ItemcTab"};
 		weapons[] = {"rhs_weap_m4","CUP_hgun_M9","Throw","Put","Binocular"};
@@ -233,7 +233,7 @@
 	class hmg_us_army_2015_ABCT_COM : hmg_us_army_2015_ABCT_XO
 	{
 		displayName= "Tank Company commander(ocp)";
-		items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage", "AGM_Bandage","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
 		linkedItems[] = {"rhsusf_cvc_green_helmet","rhsusf_iotv_ocp","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemMap","ItemcTab"};
 		respawnLinkedItems[] = {"rhsusf_cvc_green_helmet","rhsusf_iotv_ocp","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemMap","ItemcTab"};
 		weapons[] = {"rhs_weap_m4","CUP_hgun_M9","Throw","Put","Binocular"};
@@ -266,7 +266,7 @@
 class hmg_us_army_2015_ABCT_RIFLEMAN : rhsusf_army_ocp_rifleman_1stcav
 	{
 		displayName= "Rifleman (ocp) ";
-		items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_anpeq15side","rhsusf_acc_compm4"};
+		items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing","rhsusf_acc_anpeq15side","rhsusf_acc_compm4"};
         linkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_Rifleman","ItemCompass","ItemWatch", "NVGoggles_INDEP","tf_anprc154","tf_microdagr"};
 		respawnLinkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_Rifleman","ItemCompass","ItemWatch", "NVGoggles_INDEP","tf_anprc154","tf_microdagr"};
 		weapons[] = {"rhs_weap_m4a1_carryhandle","Throw","Put"};
@@ -335,7 +335,7 @@ class hmg_us_army_2015_ABCT_ANTIARMOR_SP : hmg_us_army_2015_ABCT_RIFLEMAN
 	class hmg_us_army_2015_ABCT_AUTO_RIFLEMAN : hmg_us_army_2015_ABCT_RIFLEMAN
 	{
 		displayName= "Auto rifleman (ocp) ";
-		items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_anpeq15side","rhsusf_acc_compm4","RH_pas13cmg"};
+		items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing","rhsusf_acc_anpeq15side","rhsusf_acc_compm4","RH_pas13cmg"};
         linkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_SAW","ItemCompass","ItemWatch", "NVGoggles_INDEP","tf_anprc154","tf_microdagr"};
 		respawnLinkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_SAW","ItemCompass","ItemWatch", "NVGoggles_INDEP","tf_anprc154","tf_microdagr"};
 		weapons[] = {"rhs_weap_m249_pip","Throw","Put"};
@@ -362,7 +362,7 @@ class hmg_us_army_2015_ABCT_ANTIARMOR_SP : hmg_us_army_2015_ABCT_RIFLEMAN
 	class hmg_us_army_2015_ABCT_TEAM_LEADER : hmg_us_army_2015_ABCT_RIFLEMAN
 	{
 		displayName= "Team leader (ocp) ";
-		items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_anpeq15side","rhsusf_acc_compm4","RH_pas13cl","ItemAndroid","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing","rhsusf_acc_anpeq15side","rhsusf_acc_compm4","RH_pas13cl","ItemAndroid","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
         linkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_Teamleader","ItemCompass","ItemWatch", "NVGoggles_INDEP","tf_anprc154","tf_microdagr","ItemMicroDAGR","ItemMap"};
 		respawnLinkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_Teamleader","ItemCompass","ItemWatch", "NVGoggles_INDEP","tf_anprc154","tf_microdagr","ItemMicroDAGR","ItemMap"};
 		weapons[] = {"rhs_weap_m4a1_carryhandle","Throw","Put","Binocular"};
@@ -372,7 +372,7 @@ class hmg_us_army_2015_ABCT_ANTIARMOR_SP : hmg_us_army_2015_ABCT_RIFLEMAN
 	class hmg_us_army_2015_ABCT_SQUAD_LEADER : hmg_us_army_2015_ABCT_TEAM_LEADER
 	{
 		displayName= "Squad leader (ocp) ";
-		items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_anpeq15side","rhsusf_acc_compm4", "itemradio","ItemAndroid","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing","rhsusf_acc_anpeq15side","rhsusf_acc_compm4", "itemradio","ItemAndroid","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
         linkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_Squadleader","ItemCompass","ItemWatch", "NVGoggles_INDEP","tf_anprc154","tf_microdagr","ItemMicroDAGR","ItemMap","ItemcTabHCam"};
 		respawnLinkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_Squadleader","ItemCompass","ItemWatch", "NVGoggles_INDEP","tf_anprc154","tf_microdagr","ItemMicroDAGR","ItemMap","ItemcTabHCam"};
 	};
@@ -380,7 +380,7 @@ class hmg_us_army_2015_ABCT_ANTIARMOR_SP : hmg_us_army_2015_ABCT_RIFLEMAN
 	class hmg_us_army_2015_ABCT_PLT_SGT : hmg_us_army_2015_ABCT_SQUAD_LEADER
 	{
 		displayName= "Platoon sergeant (ocp) ";
-		items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_anpeq15side","rhsusf_acc_compm4","ItemAndroid","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing","rhsusf_acc_anpeq15side","rhsusf_acc_compm4","ItemAndroid","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
         linkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_Squadleader","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemMap", "itemradio"};
 		respawnLinkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_Squadleader","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemMap", "itemradio"};
 		weapons[] = {"rhs_weap_m4a1_carryhandle","Throw","Put","Laserdesignator"};
@@ -391,7 +391,7 @@ class hmg_us_army_2015_ABCT_ANTIARMOR_SP : hmg_us_army_2015_ABCT_RIFLEMAN
 	class hmg_us_army_2015_ABCT_PLT_LDR : hmg_us_army_2015_ABCT_PLT_SGT
 	{
 		displayName= "Platoon leader (ocp) ";
-		items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_anpeq15side","rhsusf_acc_compm4","ItemAndroid","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing","rhsusf_acc_anpeq15side","rhsusf_acc_compm4","ItemAndroid","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
         linkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_Squadleader","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemMap","ItemcTabHCam", "itemradio"};
 		respawnLinkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_Squadleader","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemMap","ItemcTabHCam", "itemradio"};
 		weapons[] = {"rhs_weap_m4a1_carryhandle","Throw","Put","Laserdesignator"};
@@ -402,7 +402,7 @@ class hmg_us_army_2015_ABCT_ANTIARMOR_SP : hmg_us_army_2015_ABCT_RIFLEMAN
 	class hmg_us_army_2015_ABCT_SECTION_LEADER : hmg_us_army_2015_ABCT_TEAM_LEADER
 	{
 		displayName= "Section leader (ocp) ";
-		items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_anpeq15side","rhsusf_acc_compm4","MineDetector","ItemAndroid","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing","rhsusf_acc_anpeq15side","rhsusf_acc_compm4","MineDetector","ItemAndroid","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
         linkedItems[] = {"rhsusf_cvc_green_helmet","rhsusf_iotv_ocp","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemMap"};
 		respawnLinkedItems[] = {"rhsusf_cvc_green_helmet","rhsusf_iotv_ocp","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemMap"};
 		weapons[] = {"rhs_weap_m4a1_carryhandle","Throw","Put"};
@@ -412,7 +412,7 @@ class hmg_us_army_2015_ABCT_ANTIARMOR_SP : hmg_us_army_2015_ABCT_RIFLEMAN
 	class hmg_us_army_2015_ABCT_GUNNER : hmg_us_army_2015_ABCT_RIFLEMAN
 	{
 		displayName= "IFV gunner (ocp) ";
-		items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_anpeq15side","rhsusf_acc_compm4","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing","rhsusf_acc_anpeq15side","rhsusf_acc_compm4","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
         linkedItems[] = {"rhsusf_cvc_green_helmet","rhsusf_iotv_ocp","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemMap"};
 		respawnLinkedItems[] = {"rhsusf_cvc_green_helmet","rhsusf_iotv_ocp","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemMap"};
 	};
@@ -420,7 +420,7 @@ class hmg_us_army_2015_ABCT_ANTIARMOR_SP : hmg_us_army_2015_ABCT_RIFLEMAN
 	class hmg_us_army_2015_ABCT_IFV_DRIVER : hmg_us_army_2015_ABCT_GUNNER
 	{
 		displayName= "IFV driver (ocp) ";
-		items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_anpeq15side","rhsusf_acc_compm4"};
+		items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing","rhsusf_acc_anpeq15side","rhsusf_acc_compm4"};
         linkedItems[] = {"rhsusf_cvc_green_helmet","rhsusf_iotv_ocp","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemMap"};
 		respawnLinkedItems[] = {"rhsusf_cvc_green_helmet","rhsusf_iotv_ocp","ItemCompass","ItemWatch", "NVGoggles_INDEP"};
 	};
@@ -470,7 +470,7 @@ class hmg_us_army_2015_ABCT_ANTIARMOR_SP : hmg_us_army_2015_ABCT_RIFLEMAN
 	class hmg_us_army_2015_ABCT_FWD_SIG_SPT_NCO_rifle  : hmg_us_army_2015_ABCT_FWD_SIG_SPT_NCO
 	{
 		displayName= "Forward signal NCO (ocp) ";
-		items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage", "AGM_Bandage","cw_item_notepad","AGM_CableTie","AGM_MapTools","ItemcTabHCam"};
+		items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing","cw_item_notepad","ACE_CableTie","ACE_MapTools","ItemcTabHCam"};
 		linkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_Rifleman","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemcTab","ItemMap"};
 		respawnLinkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_Rifleman","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemcTab","ItemMap"};
 		weapons[] = {"rhs_weap_m4","Throw","Put","Laserdesignator"};
@@ -505,7 +505,7 @@ class hmg_us_army_2015_ABCT_ANTIARMOR_SP : hmg_us_army_2015_ABCT_RIFLEMAN
 	class hmg_us_army_2015_ABCT_EXEC_OFF : hmg_us_army_2015_ABCT_PLT_SGT
 	{
 		displayName= "EXEC Officer (ocp) ";
-		items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_anpeq15side","rhsusf_acc_compm4","ItemcTab","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		items[] = {"G_Combat","ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing","rhsusf_acc_anpeq15side","rhsusf_acc_compm4","ItemcTab","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
         linkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_Squadleader","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemMap"};
 		respawnLinkedItems[] = {"rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_Squadleader","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemMap"};
 		weapons[] = {"rhs_weap_m4","Throw","Put","Laserdesignator"};

@@ -844,8 +844,8 @@ class CfgVehicles
 				name = "cw_item_table82mm";
 				count = 1;
 			};
-			class _xx_AGM_Maptools	{
-				name = "AGM_Maptools";
+			class _xx_ACE_MapTools	{
+				name = "ACE_MapTools";
 				count = 1;
 			};
 		};
@@ -932,8 +932,8 @@ class CfgVehicles
 				name = "cw_item_table82mm_252";
 				count = 1;
 			};
-			class _xx_AGM_Maptools	{
-				name = "AGM_Maptools";
+			class _xx_ACE_MapTools	{
+				name = "ACE_MapTools";
 				count = 1;
 			};
 		};

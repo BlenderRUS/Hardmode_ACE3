@@ -790,14 +790,14 @@ class CfgVehicles {
 		displayName = "Bodyguard (SMG)";
 		hiddenSelectionsTextures[] = {"\PG_Services_PMC\textures\Uniforms\U_PMC_BluePlaidShirt_BeigeCords.paa"};
 		uniformClass = "U_PMC_BluePlaidShirt_BeigeCords";
-		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
-		RespawnItems[] = {"FirstAidKit""cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		Items[] = {"FirstAidKit","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
+		RespawnItems[] = {"FirstAidKit""cw_item_notepad","ACE_CableTie","ACE_MapTools"};
 		weapons[] = {"hlc_smg_mp5k_PDW", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
 		respawnWeapons[] = {"hlc_smg_mp5k_PDW", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
 		magazines[] = {"hlc_30Rnd_9x19_B_MP5", "hlc_30Rnd_9x19_B_MP5", "hlc_30Rnd_9x19_B_MP5", "hlc_30Rnd_9x19_B_MP5", "hlc_30Rnd_9x19_B_MP5", "hlc_30Rnd_9x19_B_MP5", "hlc_30Rnd_9x19_B_MP5", "hlc_30Rnd_9x19_B_MP5", "hlc_30Rnd_9x19_B_MP5", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "SmokeShell", "SmokeShell"};
 		respawnMagazines[] = {"hlc_30Rnd_9x19_B_MP5", "hlc_30Rnd_9x19_B_MP5", "hlc_30Rnd_9x19_B_MP5", "hlc_30Rnd_9x19_B_MP5", "hlc_30Rnd_9x19_B_MP5", "hlc_30Rnd_9x19_B_MP5", "hlc_30Rnd_9x19_B_MP5", "hlc_30Rnd_9x19_B_MP5", "hlc_30Rnd_9x19_B_MP5", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "SmokeShell", "SmokeShell"};
-		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_TacVest_darkblck", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "AGM_NVG_Gen1"};
-		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_TacVest_darkblck", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "AGM_NVG_Gen1"};
+		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_TacVest_darkblck", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "ACE_NVG_Gen1"};
+		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_TacVest_darkblck", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "ACE_NVG_Gen1"};
 		
 		class EventHandlers : EventHandlers {
 			init = "[(_this select 0),'POLO'] call BG_fnc_InitPMC";
@@ -812,14 +812,14 @@ class CfgVehicles {
 		displayName = "Bodyguard (M4)";
 		hiddenSelectionsTextures[] = {"\PG_Services_PMC\textures\Uniforms\U_PMC_BluePlaidShirt_BeigeCords.paa"};
 		uniformClass = "U_PMC_BluePlaidShirt_BeigeCords";
-		Items[] = {"FirstAidKit", "RH_eothhs1","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
-		RespawnItems[] = {"FirstAidKit", "RH_eothhs1","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		Items[] = {"FirstAidKit", "RH_eothhs1","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
+		RespawnItems[] = {"FirstAidKit", "RH_eothhs1","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
 		weapons[] = {"rhs_weap_m4_grip2", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
 		respawnWeapons[] = {"rhs_weap_m4_grip2", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
 		magazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "SmokeShell", "SmokeShell"};
 		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "SmokeShell", "SmokeShell", "HandGrenade", "HandGrenade"};
-		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_TacVest_darkblck", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "AGM_NVG_Gen1"};
-		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_TacVest_darkblck", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "AGM_NVG_Gen1"};
+		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_TacVest_darkblck", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "ACE_NVG_Gen1"};
+		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_TacVest_darkblck", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "ACE_NVG_Gen1"};
 		
 		class EventHandlers : EventHandlers {
 			init = "[(_this select 0),'POLO'] call BG_fnc_InitPMC";
@@ -831,14 +831,14 @@ class CfgVehicles {
 		author = "Pomigit";
 		displayName = "Security Contractor (M4)";
 		nakedUniform = "U_PMC_blk_BasicBody";
-		Items[] = {"FirstAidKit", "optic_Arco", "RH_peq15b_top", "RH_saker", "muzzle_snds_L", "CUP_acc_Glock17_Flashlight","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
-		RespawnItems[] = {"FirstAidKit", "optic_Arco", "RH_peq15b_top", "RH_saker", "muzzle_snds_L", "CUP_acc_Glock17_Flashlight","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		Items[] = {"FirstAidKit", "optic_Arco", "RH_peq15b_top", "RH_saker", "muzzle_snds_L", "CUP_acc_Glock17_Flashlight","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
+		RespawnItems[] = {"FirstAidKit", "optic_Arco", "RH_peq15b_top", "RH_saker", "muzzle_snds_L", "CUP_acc_Glock17_Flashlight","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
 		weapons[] = {"RH_M4sbr", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
 		respawnWeapons[] = {"RH_M4sbr", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
 		magazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "SmokeShell"};
 		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "SmokeShell"};
-		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_PlateCarrier1_PMC_marpat", "H_Cap_pmc", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "AGM_NVG_Gen1"};
-		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_PlateCarrier1_PMC_marpat", "H_Cap_pmc", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "AGM_NVG_Gen1"};
+		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_PlateCarrier1_PMC_marpat", "H_Cap_pmc", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "ACE_NVG_Gen1"};
+		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_PlateCarrier1_PMC_marpat", "H_Cap_pmc", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "ACE_NVG_Gen1"};
 		
 		class EventHandlers : EventHandlers {
 			init = "[(_this select 0),'COMBAT'] call BG_fnc_InitPMC";
@@ -850,14 +850,14 @@ class CfgVehicles {
 		author = "Pomigit";
 		displayName = "Security Contractor (AK)";
 		nakedUniform = "U_PMC_blk_BasicBody";
-		Items[] = {"FirstAidKit", "rhs_acc_1p29","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
-		RespawnItems[] = {"FirstAidKit", "rhs_acc_1p29","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		Items[] = {"FirstAidKit", "rhs_acc_1p29","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
+		RespawnItems[] = {"FirstAidKit", "rhs_acc_1p29","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
 		weapons[] = {"rhs_weap_ak74m_desert", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
 		respawnWeapons[] = {"rhs_weap_ak74m_desert", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
 		magazines[] = {"rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_AK_green", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "SmokeShell"};
 		respawnMagazines[] = {"rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_AK_green", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "SmokeShell"};
-		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_PlateCarrier1_PMC_marpat", "H_Cap_pmc", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "AGM_NVG_Gen1"};
-		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_PlateCarrier1_PMC_marpat", "H_Cap_pmc", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "AGM_NVG_Gen1"};
+		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_PlateCarrier1_PMC_marpat", "H_Cap_pmc", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "ACE_NVG_Gen1"};
+		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_PlateCarrier1_PMC_marpat", "H_Cap_pmc", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "ACE_NVG_Gen1"};
 		
 		class EventHandlers : EventHandlers {
 			init = "[(_this select 0),'COMBAT'] call BG_fnc_InitPMC";
@@ -868,14 +868,14 @@ class CfgVehicles {
 		scope = 2;
 		author = "Pomigit";
 		displayName = "Security Contractor (AKMS/GP25)";
-		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
-		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		Items[] = {"FirstAidKit","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
+		RespawnItems[] = {"FirstAidKit","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
 		weapons[] = {"rhs_weap_akms_gp25", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
 		respawnWeapons[] = {"rhs_weap_akms_gp25", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
 		magazines[] = {"rhs_30Rnd_762x39mm_89", "rhs_30Rnd_762x39mm_89", "rhs_30Rnd_762x39mm_89", "rhs_30Rnd_762x39mm_89", "rhs_30Rnd_762x39mm_89", "rhs_30Rnd_762x39mm_89", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhs_VG40TB", "rhs_VG40TB", "rhs_VG40TB", "SmokeShell", "SmokeShellGreen", "rhs_VG40TB", "rhs_VG40TB", "rhs_GRD40_Red", "rhs_GRD40_Red", "rhs_GRD40_Green", "rhs_GRD40_Green", "rhs_GRD40_Green", "rhs_VOG25P", "rhs_VOG25P", "rhs_VOG25P", "rhs_VOG25P", "rhs_VOG25P", "rhs_VOG25P"};
 		respawnMagazines[] = {"rhs_30Rnd_762x39mm_89", "rhs_30Rnd_762x39mm_89", "rhs_30Rnd_762x39mm_89", "rhs_30Rnd_762x39mm_89", "rhs_30Rnd_762x39mm_89", "rhs_30Rnd_762x39mm_89", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhs_VG40TB", "rhs_VG40TB", "rhs_VG40TB", "SmokeShell", "SmokeShellGreen", "rhs_VG40TB", "rhs_VG40TB", "rhs_GRD40_Red", "rhs_GRD40_Red", "rhs_GRD40_Green", "rhs_GRD40_Green", "rhs_GRD40_Green", "rhs_VOG25P", "rhs_VOG25P", "rhs_VOG25P", "rhs_VOG25P", "rhs_VOG25P", "rhs_VOG25P"};
-		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_TacVest_darkblck", "H_Cap_pmc", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "AGM_NVG_Gen1"};
-		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_TacVest_darkblck", "H_Cap_pmc", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "AGM_NVG_Gen1"};
+		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_TacVest_darkblck", "H_Cap_pmc", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "ACE_NVG_Gen1"};
+		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_TacVest_darkblck", "H_Cap_pmc", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "ACE_NVG_Gen1"};
 		
 		class EventHandlers : EventHandlers {
 			init = "[(_this select 0),'COMBAT'] call BG_fnc_InitPMC";
@@ -886,14 +886,14 @@ class CfgVehicles {
 		scope = 2;
 		author = "Pomigit";
 		displayName = "Security Contractor (M16/M203)";
-		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
-		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		Items[] = {"FirstAidKit","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
+		RespawnItems[] = {"FirstAidKit","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
 		weapons[] = {"RH_M16A2gl", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
 		respawnWeapons[] = {"RH_M16A2gl", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
 		magazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "SmokeShell", "SmokeShellGreen", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_m576", "rhs_mag_m576", "rhs_mag_m4009", "rhs_mag_m713_Red", "rhs_mag_m715_Green", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE"};
 		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "SmokeShell", "SmokeShellGreen", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_m576", "rhs_mag_m576", "rhs_mag_m4009", "rhs_mag_m713_Red", "rhs_mag_m715_Green", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE"};
-		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_TacVest_darkblck", "H_Cap_pmc", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "AGM_NVG_Gen1"};
-		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_TacVest_darkblck", "H_Cap_pmc", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "AGM_NVG_Gen1"};
+		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_TacVest_darkblck", "H_Cap_pmc", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "ACE_NVG_Gen1"};
+		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_TacVest_darkblck", "H_Cap_pmc", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "ACE_NVG_Gen1"};
 		
 		class EventHandlers : EventHandlers {
 			init = "[(_this select 0),'COMBAT'] call BG_fnc_InitPMC";
@@ -904,8 +904,8 @@ class CfgVehicles {
 		scope = 2;
 		author = "Pomigit";
 		displayName = "Field Technician (FN FAL)";
-		Items[] = {"FirstAidKit", "cw_item_notepad","AGM_CableTie","AGM_MapTools"};
-		RespawnItems[] = {"FirstAidKit", "cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		Items[] = {"FirstAidKit", "cw_item_notepad","ACE_CableTie","ACE_MapTools"};
+		RespawnItems[] = {"FirstAidKit", "cw_item_notepad","ACE_CableTie","ACE_MapTools"};
 		icon = "iconManEngineer";
 		picture = "pictureRepair";
 		backpack = "B_Bergen_rgr_Exp";
@@ -916,8 +916,8 @@ class CfgVehicles {
 		respawnWeapons[] = {"hlc_rifle_c1A1", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
 		magazines[] = {"hlc_20Rnd_762x51_B_fal", "hlc_20Rnd_762x51_B_fal", "hlc_20Rnd_762x51_B_fal", "hlc_20Rnd_762x51_B_fal", "hlc_20Rnd_762x51_B_fal", "hlc_20Rnd_762x51_B_fal", "hlc_20Rnd_762x51_B_fal", "hlc_20Rnd_762x51_B_fal", "hlc_20Rnd_762x51_B_fal", "hlc_20Rnd_762x51_B_fal", "hlc_20Rnd_762x51_B_fal", "hlc_20Rnd_762x51_B_fal", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "SmokeShell", "SmokeShell", "SatchelCharge_Remote_Mag", "DemoCharge_Remote_Mag"};
 		respawnMagazines[] = {"hlc_20Rnd_762x51_B_fal", "hlc_20Rnd_762x51_B_fal", "hlc_20Rnd_762x51_B_fal", "hlc_20Rnd_762x51_B_fal", "hlc_20Rnd_762x51_B_fal", "hlc_20Rnd_762x51_B_fal", "hlc_20Rnd_762x51_B_fal", "hlc_20Rnd_762x51_B_fal", "hlc_20Rnd_762x51_B_fal", "hlc_20Rnd_762x51_B_fal", "hlc_20Rnd_762x51_B_fal", "hlc_20Rnd_762x51_B_fal", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "SmokeShell", "SmokeShell", "SatchelCharge_Remote_Mag", "DemoCharge_Remote_Mag"};
-		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_PlateCarrierInd_PMC_grn", "H_Booniehat_rgr", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "AGM_NVG_Gen2"};
-		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_PlateCarrierInd_PMC_grn", "H_Booniehat_rgr", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "AGM_NVG_Gen2"};
+		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_PlateCarrierInd_PMC_grn", "H_Booniehat_rgr", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "ACE_NVG_Gen2"};
+		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_PlateCarrierInd_PMC_grn", "H_Booniehat_rgr", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "ACE_NVG_Gen2"};
 		
 		class EventHandlers : EventHandlers {
 			init = "[(_this select 0),'CORDS'] call BG_fnc_InitPMC";
@@ -928,8 +928,8 @@ class CfgVehicles {
 		scope = 2;
 		author = "Pomigit";
 		displayName = "Field Technician (MP5SD)";
-		Items[] = {"FirstAidKit", "cw_item_notepad","AGM_CableTie","AGM_MapTools"};
-		RespawnItems[] = {"FirstAidKit", "cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		Items[] = {"FirstAidKit", "cw_item_notepad","ACE_CableTie","ACE_MapTools"};
+		RespawnItems[] = {"FirstAidKit", "cw_item_notepad","ACE_CableTie","ACE_MapTools"};
 		icon = "iconManEngineer";
 		picture = "pictureRepair";
 		backpack = "B_Bergen_rgr_Exp";
@@ -940,8 +940,8 @@ class CfgVehicles {
 		respawnWeapons[] = {"hlc_smg_mp5sd5", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
 		magazines[] = {"hlc_30Rnd_9x19_SD_MP5", "hlc_30Rnd_9x19_SD_MP5", "hlc_30Rnd_9x19_SD_MP5", "hlc_30Rnd_9x19_SD_MP5", "hlc_30Rnd_9x19_SD_MP5", "hlc_30Rnd_9x19_SD_MP5", "hlc_30Rnd_9x19_SD_MP5", "hlc_30Rnd_9x19_SD_MP5", "hlc_30Rnd_9x19_SD_MP5", "hlc_30Rnd_9x19_SD_MP5", "hlc_30Rnd_9x19_SD_MP5", "hlc_30Rnd_9x19_SD_MP5", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "SmokeShell", "SmokeShell", "SatchelCharge_Remote_Mag", "DemoCharge_Remote_Mag"};
 		respawnMagazines[] = {"hlc_30Rnd_9x19_SD_MP5", "hlc_30Rnd_9x19_SD_MP5", "hlc_30Rnd_9x19_SD_MP5", "hlc_30Rnd_9x19_SD_MP5", "hlc_30Rnd_9x19_SD_MP5", "hlc_30Rnd_9x19_SD_MP5", "hlc_30Rnd_9x19_SD_MP5", "hlc_30Rnd_9x19_SD_MP5", "hlc_30Rnd_9x19_SD_MP5", "hlc_30Rnd_9x19_SD_MP5", "hlc_30Rnd_9x19_SD_MP5", "hlc_30Rnd_9x19_SD_MP5", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "SmokeShell", "SmokeShell", "SatchelCharge_Remote_Mag", "DemoCharge_Remote_Mag"};
-		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_PlateCarrierInd_PMC_grn", "H_Booniehat_rgr", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "AGM_NVG_Gen2"};
-		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_PlateCarrierInd_PMC_grn", "H_Booniehat_rgr", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "AGM_NVG_Gen2"};
+		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_PlateCarrierInd_PMC_grn", "H_Booniehat_rgr", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "ACE_NVG_Gen2"};
+		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_PlateCarrierInd_PMC_grn", "H_Booniehat_rgr", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "ACE_NVG_Gen2"};
 		
 		class EventHandlers : EventHandlers {
 			init = "[(_this select 0),'CORDS'] call BG_fnc_InitPMC";
@@ -953,8 +953,8 @@ class CfgVehicles {
 		scope = 2;
 		author = "Pomigit";
 		displayName = "Field Medic (M4)";
-		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
-		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		Items[] = {"FirstAidKit","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
+		RespawnItems[] = {"FirstAidKit","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
 		icon = "iconManMedic";
 		attendant = 1;
 		backpack = "B_Kitbag_blk_Medic";
@@ -962,8 +962,8 @@ class CfgVehicles {
 		respawnWeapons[] = {"rhs_weap_m4_grip", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
 		magazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "SmokeShell", "HandGrenade", "HandGrenade"};
 		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "SmokeShell", "HandGrenade", "HandGrenade"};
-		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_TacVestIR_blk", "H_HelmetB_plain_blk", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "AGM_NVG_Gen2"};
-		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_TacVestIR_blk", "H_HelmetB_plain_blk", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "AGM_NVG_Gen2"};
+		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_TacVestIR_blk", "H_HelmetB_plain_blk", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "ACE_NVG_Gen2"};
+		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_TacVestIR_blk", "H_HelmetB_plain_blk", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "ACE_NVG_Gen2"};
 		
 		class EventHandlers : EventHandlers {
 			init = "[(_this select 0),'MEDIC'] call BG_fnc_InitPMC";
@@ -975,8 +975,8 @@ class CfgVehicles {
 		scope = 2;
 		author = "Pomigit";
 		displayName = "Field Medic (M4A1)";
-		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools","RH_qdss_nt4"};
-		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools","RH_qdss_nt4"};
+		Items[] = {"FirstAidKit","cw_item_notepad","ACE_CableTie","ACE_MapTools","RH_qdss_nt4"};
+		RespawnItems[] = {"FirstAidKit","cw_item_notepad","ACE_CableTie","ACE_MapTools","RH_qdss_nt4"};
 		icon = "iconManMedic";
 		attendant = 1;
 		backpack = "B_Kitbag_blk_Medic";
@@ -984,8 +984,8 @@ class CfgVehicles {
 		respawnWeapons[] = {"RH_m4_tg", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
 		magazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "SmokeShell", "HandGrenade", "HandGrenade"};
 		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "SmokeShell", "HandGrenade", "HandGrenade"};
-		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_TacVestIR_blk", "H_HelmetB_plain_blk",, "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "AGM_NVG_Gen2"};
-		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_TacVestIR_blk", "H_HelmetB_plain_blk", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "AGM_NVG_Gen2"};
+		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_TacVestIR_blk", "H_HelmetB_plain_blk",, "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "ACE_NVG_Gen2"};
+		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_TacVestIR_blk", "H_HelmetB_plain_blk", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "ACE_NVG_Gen2"};
 		
 		class EventHandlers : EventHandlers {
 			init = "[(_this select 0),'MEDIC'] call BG_fnc_InitPMC";
@@ -996,15 +996,15 @@ class CfgVehicles {
 		scope = 2;
 		author = "Pomigit";
 		displayName = "Field Specialist (LMG)";
-		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
-		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		Items[] = {"FirstAidKit","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
+		RespawnItems[] = {"FirstAidKit","cw_item_notepad","ACE_CableTie","ACE_MapTools"};
 		icon = "iconManMG";
 		weapons[] = {"hlc_lmg_M60E4", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
 		respawnWeapons[] = {"hlc_lmg_M60E4", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
 		magazines[] = {"hlc_100Rnd_762x51_B_M60E4", "hlc_100Rnd_762x51_B_M60E4", "hlc_100Rnd_762x51_M_M60E4", "hlc_100Rnd_762x51_M_M60E4", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "HandGrenade", "HandGrenade", "SmokeShell", "SmokeShell"};
 		respawnMagazines[] = {"hlc_100Rnd_762x51_B_M60E4", "hlc_100Rnd_762x51_B_M60E4", "hlc_100Rnd_762x51_M_M60E4", "hlc_100Rnd_762x51_M_M60E4", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "HandGrenade", "HandGrenade", "SmokeShell", "SmokeShell"};
-		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_Chestrig_khk", "H_Cap_tan_pmc", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "AGM_NVG_Gen2", "ItemcTabHCam"};
-		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_Chestrig_khk", "H_Cap_tan_pmc", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "AGM_NVG_Gen2", "ItemcTabHCam"};
+		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_Chestrig_khk", "H_Cap_tan_pmc", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "ACE_NVG_Gen2", "ItemcTabHCam"};
+		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_Chestrig_khk", "H_Cap_tan_pmc", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "ACE_NVG_Gen2", "ItemcTabHCam"};
 		backpack = "B_AssaultPack_rgr";
 		
 		class EventHandlers : EventHandlers {
@@ -1016,15 +1016,15 @@ class CfgVehicles {
 		scope = 2;
 		author = "Pomigit";
 		displayName = "Field Specialist (M249)";
-		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools","RH_eothhs1"};
-		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools","RH_eothhs1"};
+		Items[] = {"FirstAidKit","cw_item_notepad","ACE_CableTie","ACE_MapTools","RH_eothhs1"};
+		RespawnItems[] = {"FirstAidKit","cw_item_notepad","ACE_CableTie","ACE_MapTools","RH_eothhs1"};
 		icon = "iconManMG";
 		weapons[] = {"rhs_weap_m249_pip", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
 		respawnWeapons[] = {"rhs_weap_m249_pip", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
 		magazines[] = {"rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "HandGrenade", "HandGrenade", "SmokeShell", "SmokeShell"};
 		respawnMagazines[] = {"rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "HandGrenade", "HandGrenade", "SmokeShell", "SmokeShell"};
-		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_Chestrig_khk", "H_Cap_tan_pmc", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "AGM_NVG_Gen2", "ItemcTabHCam"};
-		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_Chestrig_khk", "H_Cap_tan_pmc", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "AGM_NVG_Gen2", "ItemcTabHCam"};
+		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_Chestrig_khk", "H_Cap_tan_pmc", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "ACE_NVG_Gen2", "ItemcTabHCam"};
+		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_Chestrig_khk", "H_Cap_tan_pmc", "ItemCompass", "ItemWatch", "tf_ex8550", "ItemAndroid", "ACE_NVG_Gen2", "ItemcTabHCam"};
 		backpack = "B_AssaultPack_rgr";
 		
 		class EventHandlers : EventHandlers {
@@ -1048,8 +1048,8 @@ class CfgVehicles {
 		_generalMacro = "B_Soldier_SL_F";
 		icon = "iconManLeader";
 		displayName = "Team Coordinator (M4)";
-		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools","RH_anpvs10"};
-		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools","RH_anpvs10"};
+		Items[] = {"FirstAidKit","cw_item_notepad","ACE_CableTie","ACE_MapTools","RH_anpvs10"};
+		RespawnItems[] = {"FirstAidKit","cw_item_notepad","ACE_CableTie","ACE_MapTools","RH_anpvs10"};
 		nakedUniform = "U_PMC_RGR_BasicBody";
 		uniformClass = "U_PMC_GTShirt_DJeans";
 		hiddenSelectionsTextures[] = {"\PG_Services_PMC\textures\Underwear\basicbody_PMC_RGR_co.paa", "\PG_Services_PMC\textures\Uniforms\c_cloth_PMC_denim_co.paa"};
@@ -1057,8 +1057,8 @@ class CfgVehicles {
 		respawnWeapons[] = {"RH_m4_des", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
 		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "SmokeShell", "SmokeShell", "HandGrenade", "HandGrenade"};
 		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "SmokeShell", "SmokeShell", "HandGrenade", "HandGrenade"};
-		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_PlateCarrier1_PMC_khki", "H_Cap_pmc_headphones", "ItemCompass", "ItemWatch","AGM_NVG_Gen2", "ItemcTab", "tf_ex8550", "ItemcTabHCam"};
-		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_PlateCarrier1_PMC_khki", "H_Cap_pmc_headphones", "ItemCompass", "ItemWatch", "AGM_NVG_Gen2", "ItemcTab", "tf_ex8550", "ItemcTabHCam"};
+		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_PlateCarrier1_PMC_khki", "H_Cap_pmc_headphones", "ItemCompass", "ItemWatch","ACE_NVG_Gen2", "ItemcTab", "tf_ex8550", "ItemcTabHCam"};
+		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_PlateCarrier1_PMC_khki", "H_Cap_pmc_headphones", "ItemCompass", "ItemWatch", "ACE_NVG_Gen2", "ItemcTab", "tf_ex8550", "ItemcTabHCam"};
 		
 		class Wounds {
 			tex[] = {};
@@ -1086,8 +1086,8 @@ class CfgVehicles {
 		_generalMacro = "B_Soldier_SL_F";
 		icon = "iconManLeader";
 		displayName = "Team Coordinator (M4А1)";
-		Items[] = {"FirstAidKit", "cw_item_notepad","AGM_CableTie","AGM_MapTools", "RH_m145","rhsusf_acc_harris_bipod"};
-		RespawnItems[] = {"FirstAidKit", "cw_item_notepad","AGM_CableTie","AGM_MapTools","RH_m145","rhsusf_acc_harris_bipod"};
+		Items[] = {"FirstAidKit", "cw_item_notepad","ACE_CableTie","ACE_MapTools", "RH_m145","rhsusf_acc_harris_bipod"};
+		RespawnItems[] = {"FirstAidKit", "cw_item_notepad","ACE_CableTie","ACE_MapTools","RH_m145","rhsusf_acc_harris_bipod"};
 		nakedUniform = "U_PMC_RGR_BasicBody";
 		uniformClass = "U_PMC_GTShirt_DJeans";
 		hiddenSelectionsTextures[] = {"\PG_Services_PMC\textures\Underwear\basicbody_PMC_RGR_co.paa", "\PG_Services_PMC\textures\Uniforms\c_cloth_PMC_denim_co.paa"};
@@ -1095,8 +1095,8 @@ class CfgVehicles {
 		respawnWeapons[] = {"rhs_weap_m4a1", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
 		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "SmokeShell", "SmokeShell", "HandGrenade", "HandGrenade"};
 		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "SmokeShell", "SmokeShell", "HandGrenade", "HandGrenade"};
-		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_PlateCarrier1_PMC_khki", "H_Cap_pmc_headphones", "ItemCompass", "ItemWatch", "AGM_NVG_Gen2", "ItemcTab", "tf_ex8550", "ItemcTabHCam"};
-		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_PlateCarrier1_PMC_khki", "H_Cap_pmc_headphones", "ItemCompass", "ItemWatch", "AGM_NVG_Gen2", "ItemcTab", "tf_ex8550", "ItemcTabHCam"};
+		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_PlateCarrier1_PMC_khki", "H_Cap_pmc_headphones", "ItemCompass", "ItemWatch", "ACE_NVG_Gen2", "ItemcTab", "tf_ex8550", "ItemcTabHCam"};
+		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_PlateCarrier1_PMC_khki", "H_Cap_pmc_headphones", "ItemCompass", "ItemWatch", "ACE_NVG_Gen2", "ItemcTab", "tf_ex8550", "ItemcTabHCam"};
 		
 		class Wounds {
 			tex[] = {};
@@ -1112,15 +1112,15 @@ class CfgVehicles {
 		scope = 2;
 		author = "Pomigit";
 		displayName = "Defensive Marksman";
-		Items[] = {"FirstAidKit", "cw_item_notepad","AGM_CableTie","AGM_MapTools", "RH_qdss_nt4","RH_SFM952V","RH_eothhs1","RH_HBLM_des"};
-		RespawnItems[] = {"FirstAidKit", "cw_item_notepad","AGM_CableTie","AGM_MapTools", "RH_qdss_nt4","RH_SFM952V","RH_eothhs1","RH_HBLM_des"};
+		Items[] = {"FirstAidKit", "cw_item_notepad","ACE_CableTie","ACE_MapTools", "RH_qdss_nt4","RH_SFM952V","RH_eothhs1","RH_HBLM_des"};
+		RespawnItems[] = {"FirstAidKit", "cw_item_notepad","ACE_CableTie","ACE_MapTools", "RH_qdss_nt4","RH_SFM952V","RH_eothhs1","RH_HBLM_des"};
 		nakedUniform = "U_PMC_blk_BasicBody";
 		weapons[] = {"RH_Mk12mod1_des", "rhsusf_weap_m1911a1", "Throw", "Put", "lerca_1200_tan"};
 		respawnWeapons[] = {"RH_Mk12mod1_des", "rhsusf_weap_m1911a1", "Throw", "Put", "lerca_1200_tan"};
 		magazines[] = {"RH_30Rnd_556x45_Mk262", "RH_30Rnd_556x45_Mk262", "RH_30Rnd_556x45_Mk262", "RH_30Rnd_556x45_Mk262", "RH_30Rnd_556x45_Mk262", "RH_30Rnd_556x45_Mk262", "RH_30Rnd_556x45_Mk262", "RH_30Rnd_556x45_Mk262", "RH_30Rnd_556x45_Mk262", "RH_30Rnd_556x45_Mk262", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "SmokeShell", "SmokeShell", "HandGrenade", "HandGrenade"};
 		respawnMagazines[] = {"RH_30Rnd_556x45_Mk262", "RH_30Rnd_556x45_Mk262", "RH_30Rnd_556x45_Mk262", "RH_30Rnd_556x45_Mk262", "RH_30Rnd_556x45_Mk262", "RH_30Rnd_556x45_Mk262", "RH_30Rnd_556x45_Mk262", "RH_30Rnd_556x45_Mk262", "RH_30Rnd_556x45_Mk262", "RH_30Rnd_556x45_Mk262", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "SmokeShell", "SmokeShell", "HandGrenade", "HandGrenade"};
-		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_TacVest_darkblck", "H_Capbw_pmc", "ItemCompass", "ItemWatch", "AGM_NVG_Gen2", "ItemAndroid", "tf_ex8550", "ItemcTabHCam"};
-		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_TacVest_darkblck", "H_Capbw_pmc", "ItemCompass", "ItemWatch", "AGM_NVG_Gen2", "ItemAndroid", "tf_ex8550", "ItemcTabHCam"};
+		linkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_TacVest_darkblck", "H_Capbw_pmc", "ItemCompass", "ItemWatch", "ACE_NVG_Gen2", "ItemAndroid", "tf_ex8550", "ItemcTabHCam"};
+		respawnlinkeditems[] = {"pmc_earpiece", "G_Shades_Black", "V_TacVest_darkblck", "H_Capbw_pmc", "ItemCompass", "ItemWatch", "ACE_NVG_Gen2", "ItemAndroid", "tf_ex8550", "ItemcTabHCam"};
 		
 		class EventHandlers : EventHandlers {
 			init = "[(_this select 0),'SNIPER'] call BG_fnc_InitPMC";
@@ -1132,16 +1132,16 @@ class CfgVehicles {
 		scope = 2;
 		author = "Pomigit";
 		displayName = "Tactical Pilot";
-		Items[] = {"FirstAidKit", "cw_item_notepad","AGM_CableTie","AGM_MapTools"};
-		RespawnItems[] = {"FirstAidKit", "cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		Items[] = {"FirstAidKit", "cw_item_notepad","ACE_CableTie","ACE_MapTools"};
+		RespawnItems[] = {"FirstAidKit", "cw_item_notepad","ACE_CableTie","ACE_MapTools"};
 		nakedUniform = "U_PMC_blk_BasicBody";
 		hiddenSelectionsTextures[] = {"\PG_Services_PMC\textures\Uniforms\U_PMC_BlckPolo_BgPants.paa"};
 		weapons[] = {"rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
 		respawnWeapons[] = {"rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
 		magazines[] = {"rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "SmokeShell", "SmokeShell"};
 		respawnMagazines[] = {"rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "SmokeShell", "SmokeShell"};
-		linkeditems[] = {"pmc_earpiece", "H_PilotHelmetHeli_PMC", "V_TacVest_brn", "ItemCompass", "ItemWatch", "tf_ex8550", "AGM_NVG_Gen2"};
-		respawnlinkeditems[] = {"pmc_earpiece", "H_PilotHelmetHeli_PMC", "V_TacVest_brn", "ItemCompass", "ItemWatch", "tf_ex8550", "AGM_NVG_Gen2"};
+		linkeditems[] = {"pmc_earpiece", "H_PilotHelmetHeli_PMC", "V_TacVest_brn", "ItemCompass", "ItemWatch", "tf_ex8550", "ACE_NVG_Gen2"};
+		respawnlinkeditems[] = {"pmc_earpiece", "H_PilotHelmetHeli_PMC", "V_TacVest_brn", "ItemCompass", "ItemWatch", "tf_ex8550", "ACE_NVG_Gen2"};
 	};
 };
 
