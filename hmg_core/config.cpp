@@ -74,6 +74,7 @@ class cfgVehicles {
 			class AnyBrain;
 		};
 	};
+	#include "backpacks\backpacks.hpp"
 	#include "c130\c130j.hpp"
 	#include "modules\para.hpp"
 	#include "modules\lockBox.hpp"
